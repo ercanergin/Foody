@@ -13,4 +13,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Foody.EntityLayer\Foody.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
