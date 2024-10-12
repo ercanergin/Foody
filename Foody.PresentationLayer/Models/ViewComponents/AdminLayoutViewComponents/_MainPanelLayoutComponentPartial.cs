@@ -4,7 +4,7 @@ namespace Foody.PresentationLayer.Models.ViewComponents.AdminLayoutViewComponent
 {
     public class _MainPanelLayoutComponentPartial : ViewComponent
     {
-        public IViewComponentResult Invoike()
+        public IViewComponentResult Invoke()
         {
             return View();
         }
