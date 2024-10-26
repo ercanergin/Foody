@@ -22,5 +22,15 @@ namespace Foody.PresentationLayer.Controllers
             var values = _productService.TProductListWithCategory();
             return View(values);
         }
+        public IActionResult DeleteProduct(int id)
+        {
+            _productService.TDelete(id);
+            return RedirectToAction("ProductListWithCategory");
+        }
+        [HttpGet]
+        public IActionResult CreateProduct()
+        {
+            return View();
+        }
     }
 }
